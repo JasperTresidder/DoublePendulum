@@ -6,7 +6,7 @@ function setup() {
     l = createVector(height/4 ,height/4);
   }
   mass = createVector(1,1.4);
-  ang = createVector(PI/2,PI/2);
+  ang = createVector(PI/4,PI/6);
   vel = createVector(0,0);
   acc = createVector(0,0);
   g = -1;
