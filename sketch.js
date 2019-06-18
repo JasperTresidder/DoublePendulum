@@ -1,6 +1,10 @@
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  l = createVector(width/4 -20,width/4 -20);
+  if(width < height){
+    l = createVector(width/4 -20,width/4 -20);
+  }else{
+    l = createVector(height/4 ,height/4);
+  }
   mass = createVector(1,1.4);
   ang = createVector(PI/2,PI/2);
   vel = createVector(0,0);
