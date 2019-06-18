@@ -3,7 +3,7 @@ function setup() {
   if(width < height){
     l = createVector(width/4 -20,width/4 -20);
   }else{
-    l = createVector(height/6 ,height/6);
+    l = createVector(height/4 ,height/4);
   }
   mass = createVector(1,1.4);
   ang = createVector(PI/2,PI/2);
